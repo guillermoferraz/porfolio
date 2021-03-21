@@ -1,38 +1,502 @@
-.App {
+.welcome{
+  background-image: url('./components/img/open-mind.jpg');
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+
+}
+.head{
+  background-color: rgba(240,203,86,0.8);
+
+}
+.head:hover{
+    background: #f3e859;
+    color:#050801;
+    box-shadow: 0 0 5px #f3e859,
+                0 0 25px #f3e859,
+                0 0 50px #f3e859,
+                0 0 200px #f3e859;
+}
+.head i {
+font-size: 25px;
+color: rgba(17,17,12,0.9);
+}
+.head i:hover {
+    border-radius: 50%;
+    background-color: #dd2424;
+    box-shadow: 0 0 5px #dd2424,
+                0 0 25px #dd2424,
+                0 0 50px #dd2424,
+                0 0 200px #dd2424;
+}
+.btn-menu:hover{
+  background-color: rgba(240,203,86,0.8);
+}
+.btn-menu{
+    background: #f3e859;
+    color:#050801;
+    box-shadow: 0 0 5px #f3e859,
+                0 0 25px #f3e859,
+                0 0 50px #f3e859,
+                0 0 200px #f3e859;
+}
+#card-menu{
+  background-color: rgba(0,0,0,0.8);
+}
+.contenedor-texto .write{
+    background: rgba(277,241,62,0.5);
+    border-radius: 120px;
+    font-family: 'Rock Salt', cursive;
+    padding: 5px;
+    color:#050801;
+    box-shadow: 0 0 5px #f3e859,
+                0 0 25px #f3e859,
+                0 0 50px #f3e859,
+                0 0 200px #f3e859;
+
+}
+.contenedor-texto-2 .write{
+    background: rgba(236,83,55,0.5);
+    border-radius: 120px;
+    font-family: 'Rock Salt', cursive;
+    padding: 5px;
+    color:#050801;
+    box-shadow: 0 0 5px #ec5337,
+                0 0 25px #ec5337,
+                0 0 50px #ec5337,
+                0 0 200px #ec5337;
+
+}
+.arrow-down{
+  font-size: 50px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  top: 88%;
+  color:#050801;
+  border-radius: 50%;
+  background-color: rgba(243,232,89,0.7);
+    box-shadow: 0 0 5px #f3e859,
+                0 0 25px #f3e859,
+                0 0 50px #f3e859,
+                0 0 200px #f3e859;
+}
+.arrow-down:hover{
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(241,114,8,0.7);
+  box-shadow: 0 0 5px #ec5337,
+              0 0 25px #ec5337,
+              0 0 50px #ec5337,
+              0 0 200px #ec5337;
+}
+#arrow_down_i{
+  position: relative;
+  top: -7px;
+}
+.arrow-down a {
+  color:#050801;
+}
+.knowledge{
+  background-image: url('./components/img/knowledge.jpg');
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+#img-tech img {
+  width: 80%;
+  margin: auto;
+}
+#img-tech {
+  margin-top: 30%;
   text-align: center;
 }
+#text-tech{
+  margin-top: 8%;
+  background-color: rgba(0,0,0,0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+.description-tech{
+  margin-top: 1%;
+}
+#text-tech p {
+  color: gainsboro;
+  font-size: 18px;
+}
+.arrow-down-tech{
+  font-size: 50px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 40%;
+  top: 190%;
+  color:#050801;
+  border-radius: 50%;
+  background-color: rgba(121,88,179,0.5);
+    box-shadow: 0 0 5px #7958b3,
+                0 0 25px #7958b3,
+                0 0 50px #7958b3,
+                0 0 200px #7958b3;
+}
+.arrow-down-tech:hover{
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(241,12,217,0.3);
+  box-shadow: 0 0 5px #f10cd9,
+              0 0 25px #f10cd9,
+              0 0 50px #f10cd9,
+              0 0 200px #f10cd9;
+}
+#arrow_down_tech_i{
+  position: relative;
+  top: -7px;
+}
+.arrow-down-tech a {
+  color:#050801;
+}
+.knowledge{
+  background-image: url('./components/img/knowledge.jpg');
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+.btn-menu-skills:hover{
+  background-color: rgba(84,186,216,0.5);
+  border: 1px solid #54bad8;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.btn-menu-skills{
+    background: #f10cd9;
+    border: 1px solid #54bad8;
+    color:#050801;
+    box-shadow: 0 0 5px #f10cd9,
+                0 0 25px #f10cd9,
+                0 0 50px #f10cd9,
+                0 0 200px #f10cd9;
+}
+.btn-menu-skills:focus{
+    background: rgba(84,186,216,0.5);
+    border: 1px solid #54bad8;
+    color:#050801;
+    box-shadow: 0 0 5px #f10cd9,
+                0 0 25px #f10cd9,
+                0 0 50px #f10cd9,
+                0 0 200px #f10cd9;
+}
+.projects{
+  background-image: url('./components/img/projects.jpg');
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+#projects-text{
+  background-color: rgba(0,0,0,0.6);
+  color: gainsboro;
+  margin-left: 55%;
+  padding: 30px;
+  border-radius: 30px;
+  margin-top: 10%;
+}
+.btn-menu-projects{
+    background: #d6280d;
+    margin-left: 5%;
+    border: 1px solid #565453;
+    color:#050801;
+    box-shadow: 0 0 5px #d6280d,
+                0 0 25px #d6280d,
+                0 0 50px #d6280d,
+                0 0 200px #d6280d;
+}
+.btn-menu-projects:focus{
+    background: rgba(164,76,62,0.5);
+    border: 1px solid #565453;
+    color:#050801;
+    box-shadow: 0 0 5px #d6280d,
+                0 0 25px #d6280d,
+                0 0 50px #d6280d,
+                0 0 200px #d6280d;
+}
+.btn-menu-projects:hover{
+  background-color: rgba(164,76,62,0.5);
+  border: 1px solid #565453;
+
+}
+#btn-radio{
+  position: absolute;
+  top: 20%;
+}
+#btn-files{
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+#btn-music{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+#btn-chat{
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+#text-tech-radio{
+  margin-top: 6%;
+  background-color: rgba(0,0,0,0.7);
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  left: 0.5%;
+}
+#text-tech-radio p {
+  color: gainsboro;
+  font-size: 14.5px;
+}
+#slider-radio{
+  margin-left: 50%;
+  margin-top: 7%;
+}
+#img-tech-r img {
+  width: 98%;
+  margin: auto;
+}
+#btn-back{
+  margin-left: 90%;
+}
+.arrow-down-projects{
+  font-size: 50px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 40%;
+  top: 90%;
+  color:#050801;
+  border-radius: 50%;
+  background-color: rgba(164,76,62,0.5);
+    box-shadow: 0 0 5px #d6280d,
+                0 0 25px #d6280d,
+                0 0 50px #d6280d,
+                0 0 200px #d6280d;
+}
+.arrow-down-projects:hover{
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: #d6280d;
+  box-shadow: 0 0 5px #d6280d,
+              0 0 25px #d6280d,
+              0 0 50px #d6280d,
+              0 0 200px #d6280d;
+}
+#arrow_down_projects_i{
+  position: relative;
+  top: -7px;
+}
+.arrow-down-projects a {
+  color:#050801;
+}
+.about{
+  background-image: url('./components/img/about.jpg');
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#blue{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #11c4be;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 30%;
+  z-index: 100;
+  border-radius: 50%;
+  background-color: rgba(73,184,181,0.7);
+    box-shadow: 0 0 5px #11c4be,
+                0 0 25px #11c4be,
+                0 0 50px #11c4be,
+                0 0 200px #11c4be;
+}
+#blue:hover{
+
+  background-color: rgba(14,240,236,0.8);
+  border: 2px solid #0ef0ec;
+  box-shadow: 0 0 5px #0ef0ec,
+              0 0 25px #0ef0ec,
+              0 0 50px #0ef0ec,
+              0 0 200px #0ef0ec;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#red{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #f00e67;
+  border-radius: 50%;
+  position: relative;
+  top: 65%;
+  z-index: 100;
+  left: 60%;
+  background-color: rgba(240,14,103,0.7);
+    box-shadow: 0 0 5px #f00e67,
+                0 0 25px #f00e67,
+                0 0 50px #f00e67,
+                0 0 200px #f00e67;
 }
+#red:hover{
 
-.App-link {
-  color: #61dafb;
+  background-color: rgba(243,36,277,0.8);
+  border: 2px solid #f324e3;
+  box-shadow: 0 0 5px #f324e3,
+              0 0 25px #f324e3,
+              0 0 50px #f324e3,
+              0 0 200px #f324e3;
 }
+#text1{
+  background-color: rgba(0,0,0,0.8);
+  color: #f324e3;
+  font-family: 'Rock Salt', cursive;
+  font-size: 18px;
+  position: relative;
+  padding: 10px;
+  top: 1%;
+  left: 10%;
+  border-radius: 30px;
+  box-shadow: 0 0 5px #f324e3,
+              0 0 25px #f324e3,
+              0 0 50px #f324e3,
+              0 0 200px #f324e3;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+}
+#text2{
+  background-color: rgba(0,0,0,0.8);
+  color: #11c4be;
+  font-family: 'Rock Salt', cursive;
+  font-size: 18px;
+  position: relative;
+  padding: 10px;
+  top: 1%;
+  left: 10%;
+  border-radius: 30px;
+  box-shadow: 0 0 5px #11c4be,
+                0 0 25px #11c4be,
+                0 0 50px #11c4be,
+                0 0 200px #11c4be;
+
+}
+.arrow-down-about{
+  font-size: 50px;
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  margin-left: 40%;
+  margin-top: 1%;
+  color:#050801;
+  border-radius: 50%;
+  background-color: rgba(164,76,62,0.9);
+    box-shadow: 0 0 5px #d6280d,
+                0 0 25px #d6280d,
+                0 0 50px #d6280d,
+                0 0 200px #d6280d;
+}
+.arrow-down-about:hover{
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: #d6280d;
+  box-shadow: 0 0 5px #d6280d,
+              0 0 25px #d6280d,
+              0 0 50px #d6280d,
+              0 0 200px #d6280d;
+}
+#arrow_down_about_i{
+  position: relative;
+  top: -7px;
+}
+.arrow-down-about a {
+  color:#050801;
+}
+#close{
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f33a24;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  z-index: 100;
+  left: 10%;
+  background-color: rgba(243,58,36,0.5);
+    box-shadow: 0 0 5px #f33a24,
+                0 0 25px #f33a24,
+                0 0 50px #f33a24,
+                0 0 200px #f33a24;
+}
+#close:hover{
+
+  background-color: #f33a24;
+  border: 2px solid #f33a24;
+  box-shadow: 0 0 5px #f33a24,
+              0 0 25px #f33a24,
+              0 0 50px #f33a24,
+              0 0 200px #f33a24;
+}
+.contact{
+  background-image: url('./components/img/contact.jpg');
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+
+}
+#btn-form{
+    background: #24d7f3;
+    margin-left: 65%;
+    border: 1px solid #24d7f3;
+    color:#050801;
+    box-shadow: 0 0 5px #24d7f3,
+                0 0 25px #24d7f3,
+                0 0 50px #24d7f3,
+                0 0 200px #24d7f3;
+}
+#btn-form:hover{
+  background-color: rgba(36,215,243,0.8);
+  border: 1px solid #24d7f3;
+
+}
+.form{
+  margin-left:20%;
+  margin-top: 10%;
+  opacity: .80;
+
+}
+.footer{
+  background-color: rgba(80,192,209,0.8);
+  margin-top: 18.5%;
+
+}
+.footer:hover{
+    background: #19e0e7;
+    color:#050801;
+    box-shadow: 0 0 5px #19e0e7,
+                0 0 25px #19e0e7,
+                0 0 50px #19e0e7,
+                0 0 200px #19e0e7;
+}
+.footer i {
+font-size: 25px;
+color: rgba(17,17,12,0.9);
+}
+.footer i:hover {
+    border-radius: 50%;
+    background-color: #b119e7;
+    box-shadow: 0 0 5px #b119e7,
+                0 0 25px #b119e7,
+                0 0 50px #b119e7,
+                0 0 200px #b119e7;
 }
